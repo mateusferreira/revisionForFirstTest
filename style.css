@@ -1,0 +1,82 @@
+*{
+	font-family: sans-serif;
+	color: rgb(0,100,200);
+	font-size:14px;
+}
+#form{
+	width: 350px;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+h1{
+	font-size:25px;
+	color: rgb(200,30,20);
+}
+.borderOut{
+	border: 2px solid black;
+}
+
+fieldset{
+	width:80%;
+}
+legend{
+	font-size: 20px;
+	color: red;
+	font-weight:bold;
+}
+
+.field{
+	margin: 20px 0;
+}
+
+.field > label{
+	display:block;
+}
+
+.field > input{
+	width: 200px;
+}
+
+.bt1 {
+	border: none;
+    background-color: rgb(40,50,250); 
+    color: white;
+	padding:10px 20px;
+    text-align: center;
+}
+.bt1:hover {
+    background-color:rgb(250,40,50);
+	cursor:pointer;
+}
+
+.red{
+	background-color:rgb(250,40,50);
+}
+
+.red:hover{
+	background-color: rgb(30,30,30);
+}
+
+table td{
+	border: 1px solid red;
+	padding: 10px;
+}
+
+tr:hover{
+	background-color:rgb(200,200,200);
+}
+
+table{
+	width: 200px;
+	margin: 0 auto;
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.titleTable{
+	background-color:black;
+}
+
+.colorTitle{
+	color:white;
+}
